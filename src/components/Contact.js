@@ -34,26 +34,36 @@ const Contact = () => {
           viewport={{ once: false, amount: 0.3 }}
 
           className='flex-1 border rounded-2x1 flex flex-col gap-y-6 pb-24 p-6 items-start'action="https://formsubmit.co/7dab34db497befe4be44b99ffd92acc1" method="POST" >
-            <input className='bg-transparent border-b py-3 outline-none w-full 
-          placeholder:text-white focus:border-emerald-400 transition-all'
-              type='text'
-              name='name'
-              placeholder='Your name'
-            />
-            <input className='bg-transparent border-b py-3 outline-none w-full 
-          placeholder:text-white focus:border-emerald-400 transition-all'
-              type='text'
-              name='email'
-              placeholder='Your email'
-            />
-
+          <label htmlFor='name' className='sr-only'>Nombre</label>
+          <input
+            id='name'
+            className='bg-transparent border-b py-3 outline-none w-full 
+            placeholder:text-white focus:border-emerald-400 transition-all'
+            type='text'
+            name='name'
+            placeholder='Tu nombre'
+            required
+          />
+          <label htmlFor='email' className='sr-only'>Correo electrónico</label>
+          <input
+            id='email'
+            className='bg-transparent border-b py-3 outline-none w-full 
+            placeholder:text-white focus:border-emerald-400 transition-all'
+            type='email'
+            name='email'
+            placeholder='Tu correo electrónico'
+            required
+          />
+          <label htmlFor='message' className='sr-only'>Mensaje</label>
           <textarea
-          className='bg-transparent border-b py-12 outline-none w-full placeholder:text-white
-          focus:border-emerald-400 transition-all mb-12'
-          placeholder='Your message'
-          name='message'
+            id='message'
+            className='bg-transparent border-b py-12 outline-none w-full placeholder:text-white
+            focus:border-emerald-400 transition-all mb-12'
+            placeholder='Tu mensaje'
+            name='message'
+            required
           ></textarea>
-          <button className='btn btn-lg'>Send message</button>
+          <button className='btn btn-lg' type='submit'>Enviar mensaje</button>
           </motion.form>
         </div>
       </div>

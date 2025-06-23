@@ -22,7 +22,7 @@ const App = () => {
       <Experience/>
       <Contact/>
       <Footer/>
-      <div className='h-[5px]'></div>
+
     </div>
   );
 };

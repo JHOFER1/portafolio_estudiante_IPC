@@ -108,7 +108,7 @@ const Banner = () => {
             whileInView={'show'}
             // viewport={{ once: false, amount: 0.7 }}
             className='hidden lg:flex flex-1 max-w-[300px] lg:max-w-[220px]'>
-            <img className='rounded-3xl' src={Image} alt='none' />
+            <img className='rounded-3xl' src={Image} alt='Imagen de Perfil Profesional' />
           </motion.div>
         </div>
       </div>

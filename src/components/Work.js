@@ -33,7 +33,7 @@ const Work = () => {
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40
               transition-all duration-300'></div>
               {/* img */}
-              <img className='group-hover:scale-105 transition-all duration-500' src={img1} alt='none' />
+              <img className='group-hover:scale-105 transition-all duration-500' src={img1} alt='Imagen Proyecto Chatbot' />
               {/* Pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
                 <a href='https://ieee-c3229.web.app' target='_blanck' rel="noopener">
@@ -62,7 +62,7 @@ const Work = () => {
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40
               transition-all duration-300'></div>
               {/* img */}
-              <img className='group-hover:scale-105 transition-all duration-500' src={img2} alt='none' />
+              <img className='group-hover:scale-105 transition-all duration-500' src={img2} alt='Imagen Proyecto E-COMMERCE' />
               {/* Pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
                 <a href='https://coffe-mern-stack-production.up.railway.app' target='_blanck' rel="noopener">
@@ -85,7 +85,7 @@ const Work = () => {
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40
               transition-all duration-300'></div>
               {/* img */}
-              <img className='group-hover:scale-105 transition-all duration-500' src={img3} alt='none' />
+              <img className='group-hover:scale-105 transition-all duration-500' src={img3} alt='Imagen Proyecto ERP' />
               {/* Pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
                 <a href='https://gesprender.com/' target='_blanck' rel="noopener" >

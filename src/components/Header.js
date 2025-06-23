@@ -7,7 +7,7 @@ const Header = () => {
       <div className='container mx-auto'>
         <div className='flex justify-between items-center'>
           <a href='/'>
-            <img width='75' src={logo} alt='none' />
+            <img width='75' src={logo} alt='Logo Personal' />
           </a>
           <Link to='contact'
             className='text-gradient btn-link cursor-pointer'
