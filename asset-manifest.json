@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portafolio_estudiante_IPC/static/css/main.8a29ecc8.css",
-    "main.js": "/portafolio_estudiante_IPC/static/js/main.42868ee2.js",
+    "main.css": "/portafolio_estudiante_IPC/static/css/main.7b3dc67f.css",
+    "main.js": "/portafolio_estudiante_IPC/static/js/main.ab212ad8.js",
     "static/media/portfolio-img1.png": "/portafolio_estudiante_IPC/static/media/portfolio-img1.4c05964974df8824a15b.png",
     "static/media/portfolio-img2.png": "/portafolio_estudiante_IPC/static/media/portfolio-img2.7c9a6e18b5878a32f46a.png",
     "static/media/portfolio-img3.png": "/portafolio_estudiante_IPC/static/media/portfolio-img3.49d463cd80f504005973.png",
     "static/media/avatar.png": "/portafolio_estudiante_IPC/static/media/avatar.4487fae4b6b4772625d8.png",
     "index.html": "/portafolio_estudiante_IPC/index.html",
-    "main.8a29ecc8.css.map": "/portafolio_estudiante_IPC/static/css/main.8a29ecc8.css.map",
-    "main.42868ee2.js.map": "/portafolio_estudiante_IPC/static/js/main.42868ee2.js.map"
+    "main.7b3dc67f.css.map": "/portafolio_estudiante_IPC/static/css/main.7b3dc67f.css.map",
+    "main.ab212ad8.js.map": "/portafolio_estudiante_IPC/static/js/main.ab212ad8.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a29ecc8.css",
-    "static/js/main.42868ee2.js"
+    "static/css/main.7b3dc67f.css",
+    "static/js/main.ab212ad8.js"
   ]
 }
