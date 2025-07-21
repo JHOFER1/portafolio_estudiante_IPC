@@ -1,0 +1,23 @@
+name: Deploy React to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # o 'master' si tu rama principal se llama así
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - id: build-publish
+        uses: bitovi/github-actions-react-to-github-pages@v1.2.4
+        with:
+          path: build        # la carpeta donde React genera los archivos
+          caching: true      # cachea dependencias para acelerar compilaciones
+        # Esta acción realiza checkout, instala, compila y despliega automáticamente :contentReference[oaicite:1]{index=1}
