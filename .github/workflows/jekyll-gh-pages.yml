@@ -15,9 +15,22 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - id: build-publish
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run unit tests
+        run: npm test -- --ci --passWithNoTests
+
+      - name: Build and deploy to GitHub Pages
         uses: bitovi/github-actions-react-to-github-pages@v1.2.4
         with:
           path: build        # la carpeta donde React genera los archivos
           caching: true      # cachea dependencias para acelerar compilaciones
-        # Esta acción realiza checkout, instala, compila y despliega automáticamente :contentReference[oaicite:1]{index=1}
