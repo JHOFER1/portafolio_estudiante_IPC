@@ -9,6 +9,7 @@ import Work from './components/Work';
 import Contact from './components/Contact';
 import Experience from './components/Experience';
 import Footer from './components/Footer';
+import HeatmapTracker from './components/HeatmapTracker';
 
 const App = () => {
   return (
@@ -22,7 +23,7 @@ const App = () => {
       <Experience/>
       <Contact/>
       <Footer/>
-
+      <HeatmapTracker />
     </div>
   );
 };
