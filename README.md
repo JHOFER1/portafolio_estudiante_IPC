@@ -3,13 +3,10 @@
 ### 
 
 # Portafolio Creado con REACT-Tailwindcss
-
-Link a Figma: https://www.figma.com/design/Neo2zB6pnZ7VMxS2udfzlN/pPORTFOLIO?node-id=0-1&p=f
 Link de la pagina ya publicada: https://jhofer1.github.io/portafolio_estudiante_IPC/
 # 
 
-
-# Comentario sobre el uso de sugerencias de IA
+# Comentario sobre el uso de sugerencias de IA -----pipeline---pruebas unitarias
 
 Durante el desarrollo de este portafolio, se utilizaron sugerencias de IA para mejorar la accesibilidad, la estructura del código y la automatización del despliegue.  
 Las recomendaciones de IA fueron especialmente útiles en los siguientes puntos:
